@@ -1,60 +1,55 @@
-# Real Madrid Weboldal - Projektmunka
+# Projektmunka - Real Madrid
 
-## Téma
+A projekt egy Real Madrid témájú weboldalról fog szólni.
 
-A projekt egy Real Madrid témájú weboldal lesz, amely bemutatja a klub történelmét, játékosait, trófeáit, legendás játékosait és stadionját.
+Az oldalon a klub története, fontosabb trófeái, játékosai, legendái és a Santiago Bernabéu stadion is bemutatásra kerül.
 
-## Források
+## Forrás
 
-- [Real Madrid hivatalos oldala](https://www.realmadrid.com/)
-- [UEFA](https://www.uefa.com/)
+- https://www.realmadrid.com/
+- https://www.uefa.com/
+- https://commons.wikimedia.org/
 
-# 1. oldal - Főoldal
+## 1. Honlap
 
-- Navbar a weboldal tetején, amely az oldalak között való navigációra szolgál.
-- A navbar alatt egy nagy Real Madrid témájú kép.
-- Rövid bemutatkozás a klubról.
-- Egy carousel több Real Madrid témájú képpel.
-- A klub legfontosabb adatai külön kártyákban.
-- Az oldal alján footer.
+- Felül egy egyszerű navbar található.
+- A navbarból elérhetőek a weboldal különböző oldalai.
+- A főoldalon egy nagy Real Madrid témájú kép található.
+- Rövid bemutatás szerepel a klubról.
+- Néhány fontos adat külön részekben jelenik meg.
+- Az oldal végén egy footer található.
 
-# 2. oldal - Történelem
+## 2. Történelem
 
-- Navbar az oldal tetején.
-- A Real Madrid történetének bemutatása időrendi sorrendben.
-- A fontosabb történelmi események külön részekben.
-- Képek a klub történetéhez kapcsolódóan.
-- A szövegek tagolt formában jelennek meg.
+- Az oldal a Real Madrid történetét mutatja be.
+- A fontosabb események időrendi sorrendben jelennek meg.
+- Rövid leírás tartozik az egyes korszakokhoz.
+- A fontosabb évszámok külön kiemelést kapnak.
 
-# 3. oldal - Játékosok
+## 3. Játékosok
 
-- Navbar az oldal tetején.
-- A jelenlegi játékosok bemutatása kártyák segítségével.
-- Minden kártyán a játékos képe, neve, mezszáma és posztja látható.
-- A játékosok poszt alapján külön részekbe vannak rendezve.
-- A kártyák egységes elrendezésben jelennek meg.
+- Az oldal a Real Madrid jelenlegi játékosait mutatja be.
+- A játékosok külön kártyákon jelennek meg.
+- A kártyákon a játékos neve, mezszáma és posztja szerepel.
+- A játékosok posztok szerint vannak csoportosítva.
 
-# 4. oldal - Trófeák
+## 4. Trófeák
 
-- Navbar az oldal tetején.
-- A Real Madrid által megszerzett fontosabb trófeák bemutatása.
-- A trófeák külön kártyákban jelennek meg.
-- Minden trófeához kép és rövid leírás tartozik.
-- A trófeák kategóriák szerint lesznek elrendezve.
+- Az oldalon a Real Madrid fontosabb trófeái jelennek meg.
+- Külön szerepelnek a nemzetközi és spanyol sorozatok.
+- Minden trófeához tartozik egy rövid leírás és a megnyert címek száma.
 
-# 5. oldal - Santiago Bernabéu
+## 5. Santiago Bernabéu
 
-- Navbar az oldal tetején.
-- Nagy kép a Santiago Bernabéu stadionról.
-- A stadion történetének bemutatása.
-- A stadion felújításának bemutatása.
-- Fontosabb adatok a stadionról.
-- Több kép a stadionról.
+- Az oldal a Santiago Bernabéu stadiont mutatja be.
+- Röviden bemutatja a stadion történetét.
+- A stadion fontosabb adatai is megjelennek.
+- A stadion felújítása is szerepel az oldalon.
+- Több kép segítségével lesz bemutatva a stadion.
 
-# 6. oldal - Legendák
+## 6. Legendák
 
-- Navbar az oldal tetején.
-- A Real Madrid történetének fontosabb játékosainak bemutatása.
-- A játékosok külön kártyákban jelennek meg.
-- Minden játékoshoz kép és rövid bemutatás tartozik.
-- A játékosok pályafutásának legfontosabb részei is megjelennek.
+- Az oldal a Real Madrid korábbi legendás játékosait mutatja be.
+- A játékosok külön kártyákon jelennek meg.
+- Rövid bemutatás tartozik minden játékoshoz.
+- A klubnál elért fontosabb eredményeik is szerepelnek.
