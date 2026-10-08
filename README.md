@@ -12,17 +12,9 @@ A weboldal megtervezése előtt elkészítettünk **3 különböző látványter
 
 Az elképzelések bemutatásához 3 különböző látványképet készítettünk a weboldal főoldaláról.
 
-**### 1. Látványterv**
+**### Látványképek**
 
-> ![latvanykep1](pics/latvany1.png)
-
-**### 2. Látványterv**
-
-> **[IDE KERÜL A 2. LÁTVÁNYKÉP]**
-
-**### 3. Látványterv**
-
-> **[IDE KERÜL A 3. LÁTVÁNYKÉP]**
+> ![latvanykepek](pics/latvanykepek.jfif)
 
 **## Forrás**
 
