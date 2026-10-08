@@ -1,0 +1,137 @@
+* { box-sizing: border-box; margin: 0; }
+body { background: #f2f3f5; color: #14192b; font: 16px/1.6 "IBM Plex Sans", Arial, sans-serif; }
+h1, h2, h3 { font-family: "Source Serif 4", Georgia, serif; }
+a { color: inherit; text-decoration: none; }
+a:focus { outline: 2px solid #c9a24b; outline-offset: 2px; }
+.w { max-width: 1120px; margin: 0 auto; padding: 0 24px; }
+
+/* fejléc */
+header { background: #0b1630; color: #fff; position: sticky; top: 0; z-index: 9; border-bottom: 1px solid #22305a; }
+header .w { display: flex; align-items: center; height: 66px; }
+.brand { display: flex; align-items: center; font: 700 20px "Source Serif 4", Georgia, serif; margin-right: 36px; white-space: nowrap; }
+.logo { height: 40px; margin-right: 11px; }
+nav { display: flex; overflow-x: auto; }
+nav a { padding: 21px 13px 19px; font-size: 14px; color: #c9cfe2; border-bottom: 2px solid transparent; white-space: nowrap; }
+nav a.on { color: #fff; border-bottom-color: #c9a24b; }
+
+/* képek */
+.img { position: relative; overflow: hidden; background: #17285a; color: #9fb0dc; font-size: 12px; }
+.img img { position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; }
+
+/* főoldal */
+.hero { background: #0b1630; color: #fff; position: relative; min-height: 460px; overflow: hidden; }
+.hero .img { position: absolute; top: 0; left: 0; right: 0; bottom: 0; }
+.hero:after { content: ""; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: linear-gradient(90deg, rgba(11,22,48,.9), rgba(11,22,48,.15)); }
+.hero .w { position: relative; z-index: 2; padding-top: 100px; padding-bottom: 100px; }
+.eyebrow { font-size: 12px; letter-spacing: 2px; text-transform: uppercase; color: #d3d8e8; }
+.eyebrow:before { content: ""; display: inline-block; width: 22px; height: 1px; background: #c9a24b; margin-right: 10px; vertical-align: middle; }
+.hero h1 { font-size: 76px; line-height: 1; margin: 16px 0 10px; }
+.sub { font-size: 22px; margin-bottom: 28px; color: #e6e9f3; }
+.btn { display: inline-block; background: #c9a24b; color: #1a1405; padding: 12px 22px; border-radius: 3px; font-weight: 600; font-size: 15px; }
+.btn:hover { background: #d8b45e; }
+.dark { background: #111f40; padding: 44px 0; }
+.tiles { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.tile { display: block; position: relative; height: 180px; overflow: hidden; color: #fff; border-radius: 3px; }
+.tile .img { position: absolute; top: 0; left: 0; right: 0; bottom: 0; }
+.tile:after { content: ""; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: linear-gradient(to top, rgba(5,10,25,.82), rgba(5,10,25,0) 60%); }
+.tile span { position: absolute; left: 18px; bottom: 13px; z-index: 2; font: 700 24px "Source Serif 4", Georgia, serif; }
+.about { padding: 68px 0; }
+.two { display: grid; grid-template-columns: 1.1fr 1fr; gap: 56px; align-items: center; }
+.about h2 { font-size: 38px; line-height: 1.15; margin-bottom: 14px; }
+.about p { max-width: 520px; color: #596077; margin-bottom: 18px; }
+.lnk { font-weight: 600; font-size: 15px; border-bottom: 2px solid #c9a24b; padding-bottom: 2px; }
+.stats { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+.st { background: #fff; border: 1px solid #d8dbe2; border-top: 3px solid #c9a24b; padding: 20px 18px; }
+.st b { display: block; font: 700 42px/1.1 "Source Serif 4", Georgia, serif; }
+.st span { font-weight: 600; font-size: 15px; display: block; }
+.st small { color: #596077; font-size: 13px; }
+
+/* aloldalak */
+.ph { background: #0b1630; color: #fff; padding: 54px 0 42px; border-top: 1px solid #22305a; }
+.ph h1 { font-size: 50px; line-height: 1.1; margin-bottom: 10px; }
+.ph p { max-width: 600px; color: #c9cfe2; }
+.body { padding: 40px 0 72px; }
+
+/* történelem */
+.tl { display: grid; grid-template-columns: 170px 1fr 260px; gap: 28px; padding: 30px 0; border-top: 1px solid #d8dbe2; }
+.body .tl:first-child { border-top: 0; }
+.y { font: 700 40px/1.1 "Source Serif 4", Georgia, serif; color: #8a6a14; }
+.y small { display: block; font: 500 13px "IBM Plex Sans", Arial, sans-serif; color: #596077; margin-top: 6px; }
+.tl h3 { font-size: 24px; margin-bottom: 6px; line-height: 1.25; }
+.tl p { color: #596077; max-width: 580px; }
+.tl .img { height: 180px; border-radius: 3px; }
+
+/* játékosok */
+.grp { font-size: 26px; margin: 38px 0 16px; }
+.body .grp:first-child { margin-top: 0; }
+.grp small { font: 400 14px "IBM Plex Sans", Arial, sans-serif; color: #596077; margin-left: 12px; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(188px, 1fr)); gap: 16px; }
+.pc { position: relative; background: #fff; border: 1px solid #d8dbe2; border-radius: 3px; overflow: hidden; }
+.pc .img { height: 230px; }
+.num { position: absolute; top: 4px; left: 12px; z-index: 2; font: 700 46px/1.2 "Source Serif 4", Georgia, serif; font-style: normal; color: #fff; text-shadow: 0 1px 12px rgba(0,0,0,.5); }
+.pc .t { padding: 11px 14px 13px; }
+.pc b { display: block; font-weight: 600; line-height: 1.3; }
+.pc .t span { font-size: 13px; color: #596077; }
+
+/* trófeák */
+.grid.tr { grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); }
+.tc { background: #fff; border: 1px solid #d8dbe2; border-radius: 3px; overflow: hidden; }
+.tc .img { height: 90px; }
+.tc .t { padding: 16px 18px 18px; }
+.tc .n { font: 700 52px/1 "Source Serif 4", Georgia, serif; color: #8a6a14; }
+.tc h3 { font-size: 19px; margin: 6px 0 4px; }
+.tc p { font-size: 14px; color: #596077; }
+.tc small { display: block; margin-top: 10px; font-size: 12.5px; border-top: 1px solid #d8dbe2; padding-top: 8px; color: #596077; }
+
+/* legendák */
+.lg { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+.lc { display: grid; grid-template-columns: 150px 1fr; background: #fff; border: 1px solid #d8dbe2; border-radius: 3px; overflow: hidden; }
+.lc .img { min-height: 210px; }
+.lc .t { padding: 16px 18px; }
+.lc h3 { font-size: 22px; line-height: 1.2; }
+.lc em { display: block; font-style: normal; font-size: 13px; color: #596077; margin: 2px 0 8px; }
+.lc p { font-size: 14.5px; }
+.lc strong { display: block; margin-top: 10px; font-size: 13.5px; color: #8a6a14; font-weight: 600; }
+
+/* stadion */
+.facts { display: grid; grid-template-columns: repeat(4, 1fr); border: 1px solid #d8dbe2; background: #fff; margin-bottom: 36px; }
+.facts div { padding: 16px 18px; border-left: 1px solid #d8dbe2; }
+.facts div:first-child { border-left: 0; }
+.facts dt { font-size: 13px; color: #596077; }
+.facts dd { font: 700 24px/1.25 "Source Serif 4", Georgia, serif; margin: 2px 0 0; }
+.facts dd small { display: block; font: 400 12.5px/1.4 "IBM Plex Sans", Arial, sans-serif; color: #596077; margin-top: 3px; }
+.cols { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; margin-bottom: 36px; }
+.cols h2 { font-size: 26px; margin-bottom: 10px; }
+.cols p, .cols li { color: #596077; margin-bottom: 8px; }
+.cols ul { padding-left: 18px; }
+.gal { display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 12px; }
+.gal .img { height: 220px; border-radius: 3px; }
+
+/* lábléc */
+footer { background: #0b1630; color: #c9cfe2; padding: 34px 0 40px; font-size: 14px; }
+footer .w { display: flex; flex-wrap: wrap; justify-content: space-between; }
+footer .w > div { margin-bottom: 18px; margin-right: 40px; }
+footer nav { flex-wrap: wrap; }
+footer nav a { padding: 4px 12px 4px 0; border: 0; }
+footer nav a.on { color: #fff; }
+footer p { max-width: 560px; font-size: 12.5px; line-height: 1.55; margin-top: 12px; color: #8e97b5; }
+footer .s { text-decoration: underline; }
+
+/* kisebb képernyők */
+@media (max-width: 860px) {
+  .tl, .two, .cols, .lg { grid-template-columns: 1fr; gap: 24px; }
+  .tl .img { max-width: 360px; }
+  .facts { grid-template-columns: 1fr 1fr; }
+  .facts div:nth-child(3) { border-left: 0; }
+  .facts div:nth-child(3), .facts div:nth-child(4) { border-top: 1px solid #d8dbe2; }
+  .gal { grid-template-columns: 1fr 1fr; }
+  .hero h1 { font-size: 52px; }
+  .ph h1 { font-size: 38px; }
+}
+@media (max-width: 640px) {
+  header .w { flex-wrap: wrap; height: auto; padding-top: 12px; }
+  nav a { padding: 10px 11px; }
+  .lc { grid-template-columns: 110px 1fr; }
+  .hero .w { padding-top: 70px; padding-bottom: 70px; }
+  .tile span { font-size: 19px; }
+}
